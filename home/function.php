@@ -10,7 +10,7 @@ function termin_remove(){
             "id" => $_GET["id"],
         ]);
 
-        header("location: https://terminkalender.testung.ml");
+        header("location: /home");
 
     }
 
@@ -28,7 +28,7 @@ function termin_remove(){
                 "user_id" => $_SESSION["user_id"],
             ]);
             
-            header("location: https://terminkalender.testung.ml");
+            header("location: /home");
         }
 
     }
@@ -45,7 +45,7 @@ function termin_remove(){
                 "zeit" => $_POST["zeit"],
             ],["id[=]" => $_GET["id"]]);
 
-            header("location: https://terminkalender.testung.ml");
+            header("location: /home");
         }
     }
 
