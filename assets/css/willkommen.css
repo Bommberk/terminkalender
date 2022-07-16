@@ -1,0 +1,44 @@
+.container
+{
+    display: flex;
+    justify-content: center;   
+}
+.box
+{
+    display: block;
+    text-align: center;
+}
+h1
+{
+    margin-top: 40px;
+    font-size: 3em;
+    margin-bottom: 80px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    background: #1fc435;
+    padding: 10px 30px;
+    font-size: 2em;
+    border-radius: 8px;
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: 0.3s;
+    position: relative;
+}
+a i
+{
+    position: absolute;
+    font-size: 0.8em;
+    margin-left: -20px;
+    transition: 0.3s;
+    margin-top: 10px;
+    color: white;
+    opacity: 0;
+}
+a:hover i
+{
+    margin-left: 5px;
+    opacity: 1;
+}

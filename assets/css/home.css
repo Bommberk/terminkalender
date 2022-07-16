@@ -1,0 +1,99 @@
+img
+{
+    position: fixed;
+    z-index: -2;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+.boxen
+{
+    display: block;
+}
+.box1
+{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+h2
+{
+    margin-right: 300px;
+    margin-left: 10px;
+    color: white;
+    font-size: 2em;
+}
+.box1 i
+{
+    font-size: 1.3em;
+    color: white;
+    margin-right: 10px;
+}
+input
+{
+    font-size: 1.4em;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    margin-left: 50px;
+    background: transparent;
+}
+input::placeholder
+{
+    color: white;
+}
+input[type="text"]:focus
+{
+    outline: none;
+}
+i
+{
+    color: black;
+}
+hr
+{
+    margin-bottom: 50px;
+}
+.box2
+{
+    display: flex;
+    align-items: center;
+}
+.content
+{
+    width: 700px;
+    height: 50px;
+    background: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 1.3em;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+.box2 .fa-trash-can
+{
+    color: red;
+    margin-right: 10px;
+    font-size: 1.4em;
+    margin-bottom: 30px;
+}
+.content i
+{
+    position: absolute;
+    right: 10px;
+    bottom: 13px;
+}
+.content p:nth-child(1)
+{
+    position: absolute;
+    left: 10px;
+}
+.content p:nth-child(2)
+{
+    position: absolute;
+    left: 25%;    
+}
