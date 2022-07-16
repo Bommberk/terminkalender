@@ -10,7 +10,7 @@
     background: transparent;
     border-radius: 50%;
     border: 10px solid #00000046;
-    border-top: 10px solid blue;
+    border-top: 10px solid #1fc435;
     margin-top: -100px;
     animation: loader 2s linear infinite;
 }
