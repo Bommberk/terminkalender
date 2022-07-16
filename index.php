@@ -14,9 +14,9 @@
         // [required]
         'type' => 'mysql',
         'host' => 'localhost',
-        'database' => 'terminkalender',
-        'username' => 'root',
-        'password' => '',
+        'database' => 's5418_terminkalender',
+        'username' => 's5418_terminkalender',
+        'password' => 'y0qz7D85!',
      
         // [optional]
         'charset' => 'utf8mb4',
